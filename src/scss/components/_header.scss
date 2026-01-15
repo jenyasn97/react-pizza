@@ -1,7 +1,7 @@
-@import "../variables";
+@use "../variables";
 
 .header {
-  border-bottom: 1px solid $gray-line;
+  border-bottom: 1px solid variables.$gray-line;
   padding: 40px 0;
 
   .container {
